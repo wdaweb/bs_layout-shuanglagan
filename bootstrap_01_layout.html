@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <style>
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(37, 37, 37);
+      }
+
+      .container{
+        width: 80%;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+      .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(37, 37, 37);
+        color: #fff;
+        
+      }
+      .col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+  
+      .wrap {
+        border: 1px solid #333;
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+        align-items: center;
+        justify-content: center;
+
+      }
+      
+    </style>
+</head>
+<body>
+<!-- 順序要對，要先有 jQuery，再有 popper.js、bootstrap.js  -->
+<!-- 3. src jquery -->
+<script src="./js/jquery-3.6.0.min.js"></script>
+<!-- 2. src  bootstrap.bundle.min.js 包含 bootstrap.js、popper.js-->
+<script src="./js/bootstrap.bundle.min.js"></script>
+    
+
+<!--
+     xs 一欄
+     md 二欄
+    lg 三欄
+    xl 四欄
+-->
+
+<div class="container">
+  <div class="row mr-auto ml-auto" >
+    <div class="col-12 col-lg-4 d-flex  justify-content-center justify-content-lg-start" style="font-size: 2rem;">LOGO</div>
+    <div class="col d-none d-lg-block"></div>
+    <div class="col col-3 col-lg-1 align-self-center px-lg-4">Home</div>
+    <div class="col col-3 col-lg-1 align-self-center px-lg-4">Features</div>
+    <div class="col col-3 col-lg-1 align-self-center px-lg-4">Works</div>
+    <div class="col col-3 col-lg-1 align-self-center px-lg-4">Contact</div>
+  </div>
+  <div class="row" >
+    <div class="col align-items-end mb-3" style="height: 150px;">
+      <img src="https://picsum.photos/100/100" alt="" class="rounded-circle">
+    </div>
+  </div>
+  <div class="row">            
+    <div class="col " style="font-size: 2rem;">Bootstrap Layout</div>
+  </div>
+  <div class="row">
+    <div class="col col-lg-8 align-self-center ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid magni odit doloribus aspernatur vero iusto dolor non laudantium, id sed labore temporibus sapiente voluptate perspiciatis maxime officiis ipsam optio iure molestiae accusantium ad eum saepe nulla! Itaque, ad. id!</div>
+  </div>
+  <div class="row mt-3">
+    <div class="col">          
+      <button type="button" >Learn More</button>
+    </div>
+  </div>
+  <div class="row align-items-end" style="height: 100px;">
+    <div class="col" style="position: absolute;bottom: 30px;">Design by Lin</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+    
+      <!-- <div class="container">  
+        <div class="row">     
+          <div class="col-xs-4 col-lg-12">
+            <div id="logo">
+                LOGO
+            </div>
+            <div id="menu">
+                
+            </div>
+          </div> 
+          <div class="row">
+            <div class="wrap">
+              <img src="https://picsum.photos/400/400/?random=1" class="rounded-circle">
+              <h3>Bootstrap Layout</h3>
+              <p>更多行業解放稿件日記輸出屏東，導航大門套件表明成果實際保障考試青草湖，語音怎麼會人事內存短信同事教材還沒有開通，出版多年產業大會並不是種類理解戰鬥裝置生產特性主機相同，群眾按鈕和你章節把握文學新竹失望身上，開了印度留言板，完全職務，屬性便利商店，推出基本。</p>
+            </div>
+          </div>
+          </div>        
+      </div> -->
+    
+    
+
+    </body>
+    
+    </html>
